@@ -16,6 +16,11 @@ let parola = prompt("inserisci una parola");
 
 console.log(parola);
 
+if(parola="forzaroma"){
+    console.log("le parole sono uguali")
+}
+
+
 
 
 
