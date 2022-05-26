@@ -30,7 +30,9 @@ function casuale() {
 function sommaNumeri(num1, num2){
 	
 }
-sommaNumeri (3, 5)
+sommaNumeri=(3, 5);
+
+for (let i = 0; i<=5; i++){
 
 if(sommaNumeri % 2 === 0){
     console.log("il numero è pari vince pari");
@@ -38,7 +40,7 @@ if(sommaNumeri % 2 === 0){
 }else(sommaNumeri % 2 === 1);{
     console.log ("il numero è dispari vince dispari")
 }
-
+}
 
 
 
