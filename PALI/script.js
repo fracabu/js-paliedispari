@@ -14,7 +14,13 @@ Creare una funzione per capire se la parola inserita è palindroma
     4) creare funzione per capire se è palindroma
 */
 
+let parola = prompt("inserisci una parola");
 
+
+
+
+
+/*
 let parolaInserita
 parolaInserita = [];
 console.log(parolaInserita);
@@ -24,7 +30,7 @@ const listaParoleInserite =[]
 console.log(listaParoleInserite)
 
 
-/*
+
 function (parola,palindroma) {
     
 }
