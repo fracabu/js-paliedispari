@@ -13,67 +13,37 @@ Creare una funzione per capire se la parola inserita è palindroma
 */
 
 let parola = prompt("inserisci una parola");
-const parolaInserita="osso";
-const parolaScomposta = ["o","s","s","o"];
-console.log ("osso".split(""));
-
-
-console.log("parolaInserita")
-
-// if(parola=="osso"){
-//     console.log("la parola è palindroma")
-// }else
-// {   console.log("le parole non sono uguali")
-
-// }
+const parolaInserita="casa";
 
 
 
 
 
+let parolaAlContrario="";
+const parolaInverita="";
 
+for(let i =parola.length-1; i>=0; i--){
+    const letteraCorrente = parola[i];
+    console.log(letteraCorrente);
 
-
-
-
-
-
-
-
-/*dichiaro funzione
-function stampaMessaggioBenvenuto(){
-    console.log("benvenuto utente");
-}
-//invoco la funzione
-stampaMessaggioBenvenuto();
-
-//Funzione con argomenti
-
-// const num1=59;
-// const num2=12;
-
-function sommaNumeri(num1, num2){
-    console.log(num1 + num2)
+    parolaAlContrario += letteraCorrente;
 }
 
-sommaNumeri(45,12)
 
+function revertWord(parolaDaInvertire){
 
-
-
-/*
-let parolaInserita
-parolaInserita = [];
-console.log(parolaInserita);
-
-
-const listaParoleInserite =[]
-console.log(listaParoleInserite)
-
-
-
-function (parola,palindroma) {
-    
 }
-*/
+
+function isPalindroma(parolaDaControllare){
+    const parolaInverita = revertWord(parolaDaControllare);
+    return parolaDaControllare === parolaInvertita;
+}
+console.log()
+
+console.log(isPalindroma(parola));
+
+
+
+
+/
 
